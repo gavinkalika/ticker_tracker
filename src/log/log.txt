@@ -1,0 +1,8 @@
+2020-11-24 18:54:44 -- <bound method Error.__str__ of ProgrammingError(1054, "1054 (42S22): Unknown column 'ticker_is' in 'field list'", '42S22')>
+2020-11-24 18:54:44 -- Update ticker data successfully.
+2020-11-24 18:55:24 -- Update ticker data successfully.
+2020-11-24 18:56:42 -- Data already exists in DB - skip save operations
+2020-11-24 19:04:31 -- Start save process.
+2020-11-24 19:04:31 -- Update ticker data successfully.
+2020-11-24 21:00:01 -- Start save process.
+2020-11-24 21:00:01 -- Data already exists in DB - skip save operations
