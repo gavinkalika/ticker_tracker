@@ -1,2 +1,2 @@
 # ticker_tracker
-tracks tickers
+Tracks stock tickers
