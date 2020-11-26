@@ -98,7 +98,7 @@ class TickerRepository:
         ticker_exists = self.__get_existing_ticker(ticker=data.ticker_id)
 
         if ticker_exists is not None:
-            self.__save_ticker_data(row, ticker_id=db_data[0])
+            self.__save_ticker_data(row, ticker_id=ticker_exists[0])
         else:
             self.cursor.execute(insert_ticker_stmt(), data.get_list())
             self.__save_ticker_data(row, ticker_id=self.cursor.lastrowid)

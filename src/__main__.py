@@ -10,7 +10,7 @@ def job():
     """
 
     url = None
-    with open('ticker_tracker/fileUrl/fileUrl.txt') as fileReader:
+    with open('src/fileUrl/fileUrl.txt') as fileReader:
         url = fileReader.read()
 
     r = requests.get(url)
@@ -37,15 +37,16 @@ def job():
 
 
 if __name__ == '__main__':
-    schedule.every().monday.at("20:00").do(job)
-    schedule.every().tuesday.at("20:00").do(job)
-    schedule.every().wednesday.at("20:00").do(job)
-    schedule.every().thursday.at("20:00").do(job)
-    schedule.every().friday.at("20:00").do(job)
+    job()
+    # schedule.every().monday.at("22:00").do(job)
+    # schedule.every().tuesday.at("22:00").do(job)
+    # schedule.every().wednesday.at("22:00").do(job)
+    # schedule.every().thursday.at("22:00").do(job)
+    # schedule.every().friday.at("22:00").do(job)
 
-    while True:
-        schedule.run_pending()
-        time.sleep(1)
+    # while True:
+        # schedule.run_pending()
+        # time.sleep(1)
 
 
 
