@@ -70,7 +70,7 @@ class TickerRepository:
             msg ([type]): [description]
         """
         msg = [DateTimeValueObject().db_format(), msg]
-        f = open('src/log/log.txt', "a")
+        f = open('./log/log.txt', "a")
         f.write("{0} -- {1}\n".format(*msg))
 
     def __save_ticker_data(self, row, ticker_id):

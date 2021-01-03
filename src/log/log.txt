@@ -14,3 +14,80 @@
 2020-11-25 22:27:59 -- Data already exists in DB - skip save operations
 2020-11-25 22:29:02 -- Start save process.
 2020-11-25 22:29:02 -- Data already exists in DB - skip save operations
+2020-11-26 11:56:10 -- Start save process.
+2020-11-26 11:56:10 -- Update ticker data successfully.
+2020-11-26 22:00:01 -- Start save process.
+2020-11-26 22:00:01 -- Data already exists in DB - skip save operations
+2020-11-27 22:00:01 -- Start save process.
+2020-11-27 22:00:01 -- Update ticker data successfully.
+2020-11-28 19:11:22 -- Start save process.
+2020-11-28 19:11:22 -- Update ticker data successfully.
+2020-11-30 18:50:27 -- Start save process.
+2020-11-30 18:50:27 -- Update ticker data successfully.
+2020-12-01 20:30:04 -- Start save process.
+2020-12-01 20:30:04 -- Update ticker data successfully.
+2020-12-01 22:00:01 -- Start save process.
+2020-12-01 22:00:01 -- Data already exists in DB - skip save operations
+2020-12-02 22:00:01 -- Start save process.
+2020-12-02 22:00:01 -- <bound method Error.__str__ of IntegrityError(1062, "1062 (23000): Duplicate entry '22:00:01' for key 'insert_log.created_time_UNIQUE'", '23000')>
+2020-12-02 22:00:01 -- Update ticker data successfully.
+2020-12-02 23:24:52 -- Start save process.
+2020-12-02 23:24:52 -- Update ticker data successfully.
+2020-12-03 22:00:02 -- Start save process.
+2020-12-03 22:00:02 -- Update ticker data successfully.
+2020-12-04 22:00:01 -- Start save process.
+2020-12-04 22:00:01 -- <bound method Error.__str__ of IntegrityError(1062, "1062 (23000): Duplicate entry '22:00:01' for key 'insert_log.created_time_UNIQUE'", '23000')>
+2020-12-04 22:00:01 -- Update ticker data successfully.
+2020-12-05 00:41:18 -- Start save process.
+2020-12-05 00:41:18 -- Update ticker data successfully.
+2020-12-07 22:00:01 -- Start save process.
+2020-12-07 22:00:01 -- <bound method Error.__str__ of IntegrityError(1062, "1062 (23000): Duplicate entry '22:00:01' for key 'insert_log.created_time_UNIQUE'", '23000')>
+2020-12-07 22:00:01 -- Update ticker data successfully.
+2020-12-08 00:38:10 -- Start save process.
+2020-12-08 00:38:10 -- Update ticker data successfully.
+2020-12-10 19:10:28 -- Start save process.
+2020-12-10 19:10:28 -- Update ticker data successfully.
+2020-12-10 19:11:51 -- Start save process.
+2020-12-10 19:11:51 -- Data already exists in DB - skip save operations
+2020-12-10 22:00:01 -- Start save process.
+2020-12-10 22:00:01 -- Data already exists in DB - skip save operations
+2020-12-11 21:25:06 -- Start save process.
+2020-12-11 21:25:06 -- Update ticker data successfully.
+2020-12-14 21:00:01 -- Start save process.
+2020-12-14 21:00:01 -- Update ticker data successfully.
+2020-12-14 21:57:36 -- Start save process.
+2020-12-14 21:57:36 -- Data already exists in DB - skip save operations
+2020-12-14 21:58:44 -- Start save process.
+2020-12-14 21:58:44 -- Data already exists in DB - skip save operations
+2020-12-15 21:00:06 -- Start save process.
+2020-12-15 21:00:06 -- Update ticker data successfully.
+2020-12-16 00:32:22 -- Start save process.
+2020-12-16 00:32:22 -- Update ticker data successfully.
+2020-12-17 22:23:38 -- Start save process.
+2020-12-17 22:23:38 -- Update ticker data successfully.
+2020-12-18 22:44:09 -- Start save process.
+2020-12-18 22:44:09 -- Update ticker data successfully.
+2020-12-21 22:43:02 -- Start save process.
+2020-12-21 22:43:02 -- Update ticker data successfully.
+2020-12-25 20:55:12 -- Start save process.
+2020-12-25 20:55:12 -- Update ticker data successfully.
+2020-12-25 21:00:00 -- Start save process.
+2020-12-25 21:00:00 -- Data already exists in DB - skip save operations
+2020-12-28 20:45:16 -- Start save process.
+2020-12-28 20:45:17 -- Update ticker data successfully.
+2020-12-28 21:00:01 -- Start save process.
+2020-12-28 21:00:01 -- Data already exists in DB - skip save operations
+2020-12-29 21:00:04 -- Start save process.
+2020-12-29 21:00:04 -- Update ticker data successfully.
+2020-12-29 21:13:42 -- Start save process.
+2020-12-29 21:13:42 -- Data already exists in DB - skip save operations
+2020-12-29 23:14:08 -- Start save process.
+2020-12-29 23:14:08 -- Data already exists in DB - skip save operations
+2020-12-29 23:15:07 -- Start save process.
+2020-12-29 23:15:07 -- Data already exists in DB - skip save operations
+2020-12-30 22:35:29 -- Start save process.
+2020-12-30 22:35:29 -- Update ticker data successfully.
+2021-01-01 11:10:51 -- Start save process.
+2021-01-01 11:10:51 -- Update ticker data successfully.
+2021-01-01 19:00:02 -- Start save process.
+2021-01-01 19:00:02 -- Data already exists in DB - skip save operations

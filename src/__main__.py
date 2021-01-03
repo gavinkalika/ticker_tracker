@@ -10,7 +10,7 @@ def job():
     """
 
     url = None
-    with open('src/fileUrl/fileUrl.txt') as fileReader:
+    with open('./fileUrl/fileUrl.txt') as fileReader:
         url = fileReader.read()
 
     r = requests.get(url)
@@ -38,11 +38,11 @@ def job():
 
 if __name__ == '__main__':
     job()
-    schedule.every().monday.at("21:00").do(job)
-    schedule.every().tuesday.at("21:00").do(job)
-    schedule.every().wednesday.at("21:00").do(job)
-    schedule.every().thursday.at("21:00").do(job)
-    schedule.every().friday.at("21:00").do(job)
+    schedule.every().monday.at("18:00").do(job)
+    schedule.every().tuesday.at("18:00").do(job)
+    schedule.every().wednesday.at("18:00").do(job)
+    schedule.every().thursday.at("18:00").do(job)
+    schedule.every().friday.at("18:00").do(job)
 
     while True:
         schedule.run_pending()
